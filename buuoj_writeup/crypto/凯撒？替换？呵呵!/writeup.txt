@@ -1,0 +1,8 @@
+MTHJ{CUBCGXGUGXWREXIPOYAOEYFIGXWRXCHTKHFCOHCFDUCGTXZOHIXOEOWMEHZO}
+
+simple subsitution 
+
+https://www.quipqiup.com/ 
+set MTHJ=flag
+
+flag{substitutioncipherdecryptionisalwayseasyjustlikeapieceofcake}
