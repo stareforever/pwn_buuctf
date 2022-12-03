@@ -1,0 +1,18 @@
+see the html source of the page 
+
+and get the following
+
+<!--
+        $cat=$_GET['cat'];
+        echo $cat;
+        if($cat=='dog'){
+            echo 'Syc{cat_cat_cat_cat}';
+        }
+        -->
+
+
+simple php 
+
+add /?cat=dog
+and get flag
+flag{10e84d89-1f30-438b-80d5-acb6afb5690c}

