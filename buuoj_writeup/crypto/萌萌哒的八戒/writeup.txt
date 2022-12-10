@@ -1,0 +1,7 @@
+Pigpen Cipher
+
+http://www.hiencode.com/pigpen.html
+
+replace each symbol in the bottom of the figure  one by one
+
+whenthepigwanttoeat
