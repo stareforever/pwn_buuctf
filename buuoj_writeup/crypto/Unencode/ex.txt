@@ -1,0 +1,9 @@
+Unencode decode
+
+http://www.hiencode.com/uu.html
+
+input 
+89FQA9WMD<V1A<V1S83DY.#<W3$Q,2TM]
+
+get
+flag{dsdasdsa99877LLLKK}
